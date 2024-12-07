@@ -1,0 +1,44 @@
+/* JobBoard.css */
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title styles */
+#page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Dynamic message styles */
+.dynamic-message p {
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: bold;
+    transition: opacity 0.5s ease;
+}
+
+/* Button styles */
+.btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Language switcher button */
+.language-switcher {
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
